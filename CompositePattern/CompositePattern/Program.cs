@@ -130,9 +130,9 @@ namespace CompositePattern
             Multi multiplication = new Multi(subtraction, d);
 
             Number e = new Number(3);
-            Div division = new Div(multiplication, e);
+            Div divide = new Div(multiplication, e);
 
-            Console.WriteLine("\nResult of: {0} is: {1}\n", division.Show(), division.Calculate());
+            Console.WriteLine("\nResult of: {0} is: {1}\n", divide.Show(), divide.Calculate());
             Console.WriteLine("Result of: {0} is: {1}", multiplication.Show(), multiplication.Calculate());
 
             Console.ReadKey();
